@@ -66,7 +66,7 @@ After reviewing the draft, approve the exact next step with prompts like:
 
 ## Important limitation
 
-This repository does **not** create a standalone application. Instead, it configures Copilot so you can use the **existing GitHub Copilot + VS Code browser tooling** more effectively for BA work.
+This repository does **not** create a standalone application or change Copilot itself. Instead, it provides guidance files that help you use the **existing GitHub Copilot + VS Code browser tooling** more effectively for BA work.
 
 ## Suggested usage pattern
 
