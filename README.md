@@ -35,6 +35,35 @@ What Copilot does **not** know by default is **how you want it to behave as a bu
    - changing issue fields
    - submitting comments
 
+## Step-by-step guide
+
+Use this flow for day-to-day Jira support in VS Code:
+
+1. Open `/home/runner/work/Learning/Learning` in **VS Code**
+2. Open **Copilot Chat** and switch to an agent-based workflow if available
+3. Open the Jira page, ticket, or other business tool page you want to work on
+4. Share the browser/page context with Copilot so it can read the current screen
+5. Start with the prompt in `.github/prompts/jira-business-analyst.prompt.md` or ask Copilot to:
+   - summarize the business objective
+   - identify gaps, risks, and assumptions
+   - draft a user story or business requirement
+   - prepare acceptance criteria and UAT notes
+6. Review Copilot's draft carefully
+7. Ask for refinements until the wording, scope, and acceptance criteria are correct
+8. Only after review, explicitly approve the change you want Copilot to make in Jira
+9. Let Copilot apply the approved update
+10. Review the final result and confirm that the Jira content matches the approved draft
+
+### Example review-first workflow
+
+Use prompts like:
+
+> Review this Jira issue as a business analyst. First summarize what you see, then draft an improved user story with acceptance criteria and open questions. Do not make any Jira changes until I approve the draft.
+
+After reviewing the draft, approve the exact next step with prompts like:
+
+> Approved. Update the Jira description with the drafted business context, user story, and acceptance criteria only.
+
 ## Important limitation
 
 This repository does **not** create a standalone application. Instead, it configures Copilot so you can use the **existing GitHub Copilot + VS Code browser tooling** more effectively for BA work.
