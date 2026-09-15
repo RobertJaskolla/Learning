@@ -39,7 +39,7 @@ What Copilot does **not** know by default is **how you want it to behave as a bu
 
 Use this flow for day-to-day Jira support in VS Code:
 
-1. Open `/home/runner/work/Learning/Learning` in **VS Code**
+1. Open your local clone of this repository in **VS Code**
 2. Open **Copilot Chat** and switch to an agent-based workflow if available
 3. Open the Jira page, ticket, or other business tool page you want to work on
 4. Share the browser/page context with Copilot so it can read the current screen
