@@ -4,7 +4,7 @@ This repository is a minimal VS Code workspace setup for using GitHub Copilot as
 
 ## What is already supported by GitHub Copilot in VS Code
 
-You are **partly right**: recent GitHub Copilot features in VS Code already provide most of the platform capabilities you asked for:
+Recent GitHub Copilot features in VS Code already provide most of the platform capabilities needed for this workflow:
 
 - **Browser interaction** so the agent can open a page, click, type, and read UI state in a shared browser session
 - **Repository custom instructions** so the agent can follow a BA-style workflow in this repository
@@ -83,7 +83,7 @@ The included instructions are designed so that Copilot should:
 - ask for approval before making browser actions that change data
 - keep edits traceable and easy to review
 
-That means the answer to your original question is:
+In practice, this means:
 
-- **Yes**: Copilot in VS Code already provides the core browser and approval capabilities
-- **No, not completely by default**: it still benefits from repository instructions and reusable prompts to behave like a BA working in Jira
+- GitHub Copilot in VS Code already provides the core browser and approval capabilities
+- Repository instructions and reusable prompts help shape that capability into a consistent BA workflow for Jira
